@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+.header {
+    grid-column: 2;
+    border: red solid;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    border: green solid;
+}
+
+.main_content {
+    border: blue solid;
+}
