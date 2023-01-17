@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     height: 100vh;
+    font-family: ;
 }
 
 .top_container {
@@ -21,7 +25,7 @@ main {
     grid-template: 1fr 1fr / 2fr 1fr;
 }
 
-.logo_and_name {
+.user_and_name {
     display: grid;
     grid-template: 1fr 2fr / 1fr 4fr;
     border: teal solid;
@@ -34,6 +38,43 @@ main {
 .sidebar {
     grid-row: 1 / 3;
     border: green solid;
+}
+
+.logo_title {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+.logo_title > img {
+    margin-left: 5px;
+    max-width: 30%;
+}
+
+.logo_title > h3 {
+    margin-left: 5px;
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+.nav_links {
+    margin-top: 30px;
+    margin-left: 5%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.nav_links a {
+    text-decoration: none;
+}
+
+#home_logo {
+    display: inline;
+    height: 50px;
+    width: 50px;
 }
 
 .main_content {
