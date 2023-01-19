@@ -245,6 +245,25 @@ form input {
 
 .user img {
     width: 50px;
+    border-radius: 50%;
+    border: black 1px solid;
+    margin: 5px 0 5px 0;
+}
+
+.user img[alt='avatar-2'] {
+    background-color: deepskyblue;
+}
+
+.user img[alt='avatar-3'] {
+    background-color: goldenrod;
+}
+
+.user img[alt='user-avatar'] {
+    background-color: salmon;
+}
+
+.user img[alt='avatar-4'] {
+    background-color: lightseagreen;
 }
 
 @media screen and (max-width: 570px) { 
